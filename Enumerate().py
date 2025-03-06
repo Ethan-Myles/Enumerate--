@@ -18,7 +18,7 @@ for chapter in chapters:
     i += 1 
     print(f'{i}: {chapter}')
 
-for i, chapter in enumerate(chapters): 
+for i, chapter in enumerate(chapters,1): 
     print(f'{i}: {chapter}')
 
 for i, chapter in enumerate(chapters,1): 
